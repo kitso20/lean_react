@@ -8,7 +8,8 @@ function cd() {
     { name: "p", age: 12, isNew: true },
     { name: "alice", age: 22, isNew: false },
     { name: "bob", age: 25 },
-    { name: "charlie", age: 30, isNew: true }   
+    { name: "charlie", age: 30, isNew: true },
+    { name: "david", age: 28, isNew: true}
   ];
 
   return (

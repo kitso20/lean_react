@@ -1,5 +1,5 @@
 import pp from "./assets/OistaY.jpg";
-import Student from "./assets/student.jsx";
+
 function Card(props) {
     return (
       <div className="card">
@@ -10,5 +10,11 @@ function Card(props) {
       </div>
     );
 }
+
+/*Card.defaultProps = {
+    name: "unknown",
+    age: 0, 
+    isNew: false
+};*/
 
 export default Card;
